@@ -1,0 +1,144 @@
+
+html { 
+    background: url(woodcarving2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #444;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+#header {
+    margin-bottom: 20px;
+}
+
+#formTitle{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+#formBox{
+    background-color: rgba(200,200,200,0.2);
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+
+#form{
+    padding: 30px 40px 40px 40px;
+    opacity: 20%;
+    color: white;
+
+}
+
+
+.field:not(:last-child){
+    margin: unset;
+}
+
+#footerMenu{
+    text-align: right;
+    font-size: 10px;
+}
+
+#footerMenu a{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: right;
+    color: white;
+}
+
+#footerMenu a:hover{
+    color: hsl(171, 100%, 41%);
+}
+
+
+#footerMenuLast{
+    padding-right: unset;
+}
+
+#titleBox{
+    padding-top: 60px;
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+label {
+    text-align: center;
+}
+
+.navbar, .footer{
+    background-color: unset;
+    color: white;
+}
+
+.navbar-item{
+    color:white;
+}
+
+.navbar a:focus, .navbar a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.navbar a:hover {
+    color: hsl(171, 100%, 41%);
+}
+
+
+
+.input{
+    font-size: 12px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 0.5px solid gray;
+    color: white;
+}
+
+.button{
+    border-radius: 0px 0px 3px 3px;
+}
+
+.input::placeholder{
+    color:white;
+}
+
+
+
+.title{
+    font-size: 54px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#form{
+    padding: 60px
+}
+
+.subtitle{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+section{
+    height: 640px;
+    padding-top: 100px
+}
+
+
+
+.control.has-icons-left .input, .control.has-icons-left .select select{
+    padding-left: 10px;
+    font-size: 14px
+}
+
+
+  
