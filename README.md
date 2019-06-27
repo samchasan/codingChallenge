@@ -14,7 +14,7 @@ I hope this was the correct move!
 - realized I had not added the TOS statement below the form. Oops! Tired hungry brain. Easy fix though,
 just add a few things below the form: 
 
-<p> By clicking 'Sign Up' I agree to our* </p> <a href='#'> Terms of Service <a>
+` <p> By clicking 'Sign Up' I agree to our* </p> <a href='#'> Terms of Service <a> `
   
   * I may change this verbage to 'your' rather than 'our'. Or change the 'I' to 'you'. Right now it's like the user
   is agreeding to their own TOS. 
